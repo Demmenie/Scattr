@@ -1,2 +1,2 @@
-# project_3
+# Scattr
 A decentralised social media platform
