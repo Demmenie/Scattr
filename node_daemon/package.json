@@ -1,0 +1,26 @@
+{
+    "name": "Scattr",
+    "version": "0.1",
+    "description": "A decentralised social media platform",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "install": "set DEBUG=app"
+    },
+    "author": "Chico Demmenie",
+    "dependencies": {
+        "@chainsafe/libp2p-noise": "^15.0.0",
+        "@libp2p/mplex": "^10.0.24",
+        "@libp2p/ping": "^1.0.19",
+        "@libp2p/tcp": "^9.0.26",
+        "debug": "^4.3.4",
+        "libp2p": "^1.6.0",
+        "multiaddr": "^10.0.1",
+        "nodemon": "^3.0.2"
+    },
+    "engines": {
+        "node": ">=20.10.0",
+        "npm": ">=9.6.4"
+    }
+}
