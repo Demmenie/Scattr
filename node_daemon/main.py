@@ -2,4 +2,7 @@
 #Chico Demmenie
 #Scattr/node_daemon/main.py
 
-import libp2p
+from libp2p import peer
+from libp2p import host
+
+host = libp2p.new_host()
